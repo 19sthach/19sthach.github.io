@@ -1,0 +1,118 @@
+h1{ color: FFFFFF;
+	background : black;}
+body{ background : maroon;
+	color : white; 
+	text-align: center;
+	margin-left : auto;
+	margin-right : auto;
+}
+a{ color : white;
+}
+#bob{text-align : left;
+	float : left;
+}
+#class{	margin-left : 380px; 
+		margin-right : auto;
+		float : center;
+		margin-top : 50px;
+		margin-bottom : auto
+		width : 70%;
+		font-size : 25px;
+		text-align : center;
+		position: relative;
+}
+#hobby{	top: 30px;
+		left: 300px;
+		width : 12%;
+		margin-left : 1px;
+		margin-top : auto;
+		font-size: 25px;
+		overflow: hidden;
+		margin-bottom: auto;
+		margin-right: 530px;
+		vertical-align: top;
+		display: inline-block;
+		position: absolute;
+		border: 3px solid black;
+		height:105px;
+}
+#hobbies {top: 1px;
+		left: 300px;
+		width : 16.6%;
+		margin-left : 1px;
+		margin-top : auto;
+		font-size: 25px;
+		overflow: hidden;
+		margin-bottom: auto;
+		margin-right: 530px;
+		vertical-align: top;
+		display: inline-block;
+		position: absolute;
+		background-color: black;
+}
+th{
+    text-align : center;
+    color : white;
+    background-color : black;
+}
+table{ border: 3px solid black;}
+#olist{	top: 205px;
+		left: 890px;
+		width : 26.5%;
+		margin-left : 1px;
+		margin-top : auto;
+		font-size: 18px;
+		margin-bottom: auto;
+		margin-right: 530px;
+		vertical-align: top;
+		display: inline-block;
+		position: absolute;
+		border: 3px solid black;
+		height:104px;
+}
+#song{top: 175px;
+		left: 890px;
+		width : 408px;
+		margin-left : 1px;
+		margin-top : auto;
+		font-size: 25px;
+		overflow: hidden;
+		margin-bottom: auto;
+		margin-right: 530px;
+		vertical-align: top;
+		display: inline-block;
+		position: absolute;
+		background-color:black;
+}
+#quote{	font-size: 25px;
+		top: 580px;
+		left: 200px;
+		vertical-align: top;
+		display: inline-block;
+		position: absolute;
+		
+		
+}
+#about{	font-size: 18px;
+		top: 340px;
+		left: 680px;
+		width:45%;
+		vertical-align: top;
+		display: inline-block;
+		position: absolute;
+		border: 3px solid black;
+		height: 74px;
+}
+#paragraph{	font-size: 18px;
+			top: 310px;
+			left: 680px;
+			width:620px;
+			vertical-align: top;
+			display: inline-block;
+			position: absolute;
+			background-color: black;
+}
+#purpose{ font-size: 20px;
+}
+#sourcelinks{ width: 10%;
+}

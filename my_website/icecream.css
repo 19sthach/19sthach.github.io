@@ -1,0 +1,23 @@
+table,td { border-collapse : collapse;
+                text-align : left;
+                margin-left : auto;
+                margin-right : auto;
+}
+tr{
+    border :1px solid white;
+    text-align : center;
+    background-color : maroon;
+}
+th{
+    text-align : center;
+    color : white;
+    background-color : maroon;
+}
+div { text-align : center;} 
+body {background-color : white;
+    font-family : "Comis Sans MS", fantasy;
+    color : #003366 ;
+}
+h1 {font-size : 3.0em;
+    text-align : center;
+}
