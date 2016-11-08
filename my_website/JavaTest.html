@@ -1,0 +1,31 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>JavaTest</title>
+            <meta charset="utf-8">
+        </head>
+        <body>
+            <h1>Javascript will Find the Time in the Browser.</h1>
+                <script type="text/javascript">
+                    var current = new Date();
+                    var hour = current.getHours();
+                    var minutes = current.getMinutes();
+                    var seconds = current.getSeconds();
+                    var suffix = "AM";
+                        if( seconds < 10) 
+                            seconds = "0" + seconds;
+                            
+                        if(minutes < 10) 
+                            minutes = "0" + minutes;
+                            
+                        if(hour >= 12) {
+                            hour = hour - 12;
+                            suffix="PM";
+                        }
+                        
+                        if(hour === 0)
+                        hour = 12;
+                     document.write("<p>" + hour + ":" + minutes + ":" + seconds + " " + suffix + "</p>" );
+                </script>
+        </body>
+    </html>
